@@ -1,0 +1,55 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <title>  
+            DOM Button Object  
+        </title>  
+          
+        <!-- script to create new button -->
+ <!--       <script>  
+            function Geeks() {  
+                var myDiv = document.getElementById("GFG");  
+                  
+                // creating button element  
+                var button = document.createElement('BUTTON');  
+                  
+                // creating text to be 
+                //displayed on button 
+                var text = document.createTextNode("Button"); 
+                  
+                // appending text to button 
+                button.appendChild(text); 
+                  
+                // appending button to div 
+                myDiv.appendChild(button); ;  
+            }  
+        </script>  -->
+    </head>  
+      
+    <body style = "text-align: center;">  
+      
+        <h1 style = "color:green;">  
+            Root Beer on the Wall  
+        </h1>  
+        
+        Number of RootBeer: <input type = "number" id = "myNumber"/>
+        <button onclick = "formdata()">Run</button>
+        <!-- <input type = "submit" value = "Run" onclick = "formdata()"/> -->
+        
+        <p id="demo"></p>
+        
+        <script>
+            
+        function formdata()
+            {
+                var number1 = document.getElementById("myNumber").value;
+                document.getElementById("demo").innerHTML = x;
+            /*    var number1 = document.getElementById("number").value;
+                document.writeln("<h1")
+                document.writeln(number1 + " bottles of root beer on the wall " + number1 + " bottles of root beer take one down pass it around " + (number1 - 1) + " bottles of root beer on the wall."); */
+            } 
+        </script>
+        
+        
+    </body>  
+</html> 
